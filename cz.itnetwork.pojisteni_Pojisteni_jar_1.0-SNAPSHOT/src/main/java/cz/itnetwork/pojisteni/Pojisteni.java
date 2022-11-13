@@ -13,8 +13,7 @@ import java.util.ArrayList;
  */
 public class Pojisteni {
 
-    public static void main(String[] args) {
-        
+    public static void main(String[] args) {        
         Pojistovna pojistovna = new Pojistovna("Mirkova Pojišťovna");
         GateWay gateway = new GateWay(pojistovna);
         gateway.cyklus();

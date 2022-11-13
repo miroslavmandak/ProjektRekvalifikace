@@ -16,7 +16,7 @@ public class Pojistenec {
     private String prijmeni;
     private int vek;
     private int telefon;
-
+    
     public Pojistenec(String jmeno, String prijmeni, int vek, int telefon) {
         this.jmeno = jmeno;
         this.prijmeni = prijmeni;

@@ -28,8 +28,7 @@ public class Pojistovna {
         System.out.println("Zadejte jméno pojištěného: ");
         String jmenoP = sc.nextLine();
         System.out.println("Zadejte příjmení pojištěného: ");
-        String prijmeniP = sc.nextLine();
-        
+        String prijmeniP = sc.nextLine();   
         System.out.println("Zadejte věk pojištěného: ");
         int vekP = 0;
         boolean pokracovat = true;
@@ -41,7 +40,6 @@ public class Pojistovna {
                 System.out.println("Nesprávně zadaný věk, zadejte ho znovu prosím:");
             }
         }
-
         System.out.println("Zadejte telefonní číslo pojištěného: ");
         pokracovat = true;
         int telefonP = 0;
